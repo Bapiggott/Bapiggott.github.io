@@ -12,10 +12,9 @@ export default function About() {
       {/* Header */}
       <h2 className="text-3xl font-bold mb-4">About Me</h2>
       <p className="text-white/80 leading-relaxed">
-        I'm a Computer Science student at <span className="text-cyan-300 font-medium">Oakland University</span>, specializing in{" "}
+        I'm a Computer Science and Mathematics student at <span className="text-cyan-300 font-medium">Oakland University</span>, specializing in{" "}
         <span className="text-cyan-300">Artificial Intelligence</span>.  
-        My work focuses on applied machine learning, AI-driven cybersecurity, secure UAV communication, and intelligent decision-making systems.
-        I enjoy building impactful tools, collaborating on research, and writing about what I learn.
+        My work focuses on applied machine learning, large language models, and intelligent decision-making systems. I enjoy building impactful tools and collaborating on research.
       </p>
 
       {/* Skills Section */}
