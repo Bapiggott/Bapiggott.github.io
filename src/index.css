@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* GLOBAL animated background for all pages */
+body {
+  color: #fff;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background:
+    /* soft glows */
+    radial-gradient(40rem 30rem at 10% -10%, rgba(56, 189, 248, 0.25), transparent 60%),
+    radial-gradient(32rem 24rem at 110% 10%, rgba(168, 85, 247, 0.18), transparent 60%),
+    radial-gradient(28rem 20rem at 50% 120%, rgba(34, 197, 94, 0.16), transparent 60%),
+    /* base gradient */
+    linear-gradient(135deg, #0b1220, #0f1e3b 40%, #0b1220);
+  background-size: 200% 200%;
+  animation: globalBgShift 24s ease-in-out infinite;
+}
+
+/* Smooth pan animation */
+@keyframes globalBgShift {
+  0%   { background-position: 0% 40%; }
+  50%  { background-position: 100% 60%; }
+  100% { background-position: 0% 40%; }
+}
