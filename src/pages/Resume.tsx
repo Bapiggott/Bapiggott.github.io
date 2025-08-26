@@ -8,7 +8,7 @@ export default function Resume() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.4 }}
     >
-      <h2 className="text-3xl font-semibold text-center mb-6">My Resume</h2>
+      <h2 className="text-4xl font-bold text-center mb-8 text-white tracking-tight"></h2>
 
       <div className="rounded-xl border border-white/10 bg-card shadow-soft overflow-hidden">
         <iframe
